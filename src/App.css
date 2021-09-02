@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: #c8c8c8;
+  margin: 0;
+  padding: 0;
+  height: 120vh;
 }
 
 .App-logo {
@@ -27,6 +31,69 @@
 .App-link {
   color: #61dafb;
 }
+
+.noPadding td{
+  padding: 3px !important;
+  border: none !important;
+}
+.noPadding th{
+  border: none!important;
+}
+
+.tableContainer{
+  background-color: #8e8e8e;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  height: 97vh;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+table{
+  width: auto;
+  /* display: inline-block; */
+  /* width: 50%; */
+  /* float: left; */
+  /* border: 1px solid white; */
+}
+
+.bg-wrap {
+  background: #172d3e !important;
+  background: var(--surface-color);
+  color: white;
+}
+
+.main-ticker{
+  height: 150px;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 0 auto !important;
+  margin-top: 40px !important;
+  box-shadow: 5px 5px 5px beige;
+}
+.ticker_table{
+  color: #acacac;
+}
+.white {
+  color: white;
+}
+.red{
+  color: red;
+}
+.green{
+  color:green;
+}
+.precisionControls button{
+  height: 40px;
+}
+
+
 
 @keyframes App-logo-spin {
   from {

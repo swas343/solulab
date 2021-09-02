@@ -92,11 +92,17 @@ const OrderBook = (props) =>{
 
     // initializing order book hook
     useEffect( () =>{
+        
         if(!props.socket){
             ws.close()
+            // connect()
         }else{
-            connect()   
+            if(ws){
+                ws.close()
+            }
+            connect()
         }
+        
     },[props.socket,precision]);
 
     if(isLoading){

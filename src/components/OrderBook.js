@@ -113,8 +113,8 @@ const OrderBook = (props) =>{
         <Fragment>
             <div className="precisionControls">
                 <label>Precision Controls: </label>
-                <button className="btn btn-primary ms-4" onClick={increasePrecision} disabled={increaseDisable}> Increase </button> 
-                <button className="btn btn-primary" onClick={decreasePrecision} disabled={decreaseDisable}> Decrease </button>
+                <button className="btn btn-primary ms-4" onClick={increasePrecision} disabled={increaseDisable}> Decrease </button> 
+                <button className="btn btn-primary" onClick={decreasePrecision} disabled={decreaseDisable}> Increase </button>
             </div>
             <div className="tableContainer">
                 
